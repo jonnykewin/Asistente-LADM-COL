@@ -1,4 +1,4 @@
-ARG QGIS_TEST_VERSION=latest_focal
+ARG QGIS_TEST_VERSION=latest
 FROM  qgis/qgis:${QGIS_TEST_VERSION}
 LABEL maintainer="matthias@opengis.ch"
 
