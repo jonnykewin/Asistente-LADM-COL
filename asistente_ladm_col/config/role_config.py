@@ -134,6 +134,49 @@ manager_role_gui[TOOLBAR] = [{  # Overwrite list of toolbars
     ]
 }]
 
+manager_medellin_role_gui = GUI_Config().get_gui_dict(TEMPLATE_GUI)
+manager_medellin_role_gui[TOOLBAR] = [{  # Overwrite list of toolbars
+    WIDGET_NAME: QCoreApplication.translate("AsistenteLADMCOLPlugin", "LADM-COL tools"),
+    OBJECT_NAME: 'ladm_col_toolbar',
+    ACTIONS: [
+        {  # List of toolbars
+            WIDGET_NAME: QCoreApplication.translate("AsistenteLADMCOLPlugin", "Transitional System"),
+            OBJECT_NAME: 'ladm_col_toolbar_st',
+            ICON: ST_ICON,
+            ACTIONS: [ACTION_ST_LOGIN,
+                      ACTION_ST_LOGOUT]
+        },
+        SEPARATOR,
+        ACTION_LOAD_LAYERS,
+        ACTION_INTEGRATE_SUPPLIES,
+        SEPARATOR,
+        ACTION_CHECK_QUALITY_RULES,
+        ACTION_PARCEL_QUERY,
+        SEPARATOR,
+        {  # List of toolbars
+            WIDGET_NAME: QCoreApplication.translate("AsistenteLADMCOLPlugin", "Change Detection"),
+            OBJECT_NAME: 'ladm_col_change_detection_toolbar',
+            ICON: CHANGE_DETECTION_ICON,
+            ACTIONS: [
+                ACTION_CHANGE_DETECTION_SETTINGS,
+                SEPARATOR,
+                ACTION_CHANGE_DETECTION_PER_PARCEL,
+                ACTION_CHANGE_DETECTION_ALL_PARCELS
+            ]
+        },
+        SEPARATOR,
+        {  # List of toolbars
+            WIDGET_NAME: QCoreApplication.translate("AsistenteLADMCOLPlugin", "Reports"),
+            OBJECT_NAME: 'ladm_col_reports_toolbar',
+            ICON: REPORTS_ICON,
+            ACTIONS: [
+                ACTION_REPORT_ANNEX_17,
+                ACTION_REPORT_ANT
+            ]
+        }
+    ]
+}]
+
 advanced_role_gui = GUI_Config().get_gui_dict(TEMPLATE_GUI)
 advanced_role_gui[TOOLBAR] = [{  # List of toolbars
     WIDGET_NAME: QCoreApplication.translate("AsistenteLADMCOLPlugin", "LADM-COL tools"),
@@ -190,6 +233,10 @@ advanced_role_gui[TOOLBAR] = [{  # List of toolbars
         ACTION_SETTINGS
     ]
 }]
+
+manager_medellin_role_models = COMMON_ROLE_MODELS.copy()
+manager_medellin_role_models[ROLE_SUPPORTED_MODELS] = COMMON_SUPPORTED_MODELS + [LADMNames.SUPPLIES_MEDELLIN_MODEL_KEY]
+manager_medellin_role_models[ROLE_CHECKED_MODELS] = COMMON_CHECKED_MODELS +  [LADMNames.SUPPLIES_MEDELLIN_MODEL_KEY]
 
 
 ROLE_CONFIG = {
@@ -313,6 +360,25 @@ ROLE_CONFIG = {
             ACTION_CHECK_QUALITY_RULES],
         ROLE_QUALITY_RULES: COMMON_QUALITY_RULES,
         ROLE_GUI_CONFIG: manager_role_gui
+    },
+    MANAGER_MEDELLIN_ROLE: {
+        ROLE_NAME: QCoreApplication.translate("AsistenteLADMCOLPlugin", "Manager Medellín"),
+        ROLE_DESCRIPTION: QCoreApplication.translate("AsistenteLADMCOLPlugin",
+                                                     "The manager Medellín is in charge of preparing supplies for operators as well as validating and managing the data provided by operators."),
+        ROLE_MODELS: manager_medellin_role_models,
+        ROLE_ACTIONS: [
+            ACTION_CHANGE_DETECTION_SETTINGS,
+            ACTION_CHANGE_DETECTION_ALL_PARCELS,
+            ACTION_CHANGE_DETECTION_PER_PARCEL,
+            ACTION_ST_LOGIN,
+            ACTION_ST_LOGOUT,
+            ACTION_REPORT_ANNEX_17,
+            ACTION_REPORT_ANT,
+            ACTION_INTEGRATE_SUPPLIES,
+            ACTION_PARCEL_QUERY,
+            ACTION_CHECK_QUALITY_RULES],
+        ROLE_QUALITY_RULES: COMMON_QUALITY_RULES,
+        ROLE_GUI_CONFIG: manager_medellin_role_gui
     },
     ADVANCED_ROLE: {
         ROLE_NAME: QCoreApplication.translate("AsistenteLADMCOLPlugin", "Advanced"),

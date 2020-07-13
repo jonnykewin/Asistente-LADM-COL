@@ -30,6 +30,7 @@ BASIC_ROLE = 'basic_role'
 SUPPLIES_PROVIDER_ROLE = 'supplies_provider_role'
 OPERATOR_ROLE = 'operator_role'
 MANAGER_ROLE = 'manager_role'
+MANAGER_MEDELLIN_ROLE = 'manager_medellin_role'
 ADVANCED_ROLE = 'advanced_role'
 ADMINISTRATOR_ROLE = 'administrator_role'
 

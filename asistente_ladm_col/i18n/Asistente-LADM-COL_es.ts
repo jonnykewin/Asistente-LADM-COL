@@ -142,49 +142,49 @@
         <translation>No hay capas para configurar sus relaciones.</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="992"/>
+        <location filename="../core/app_core_interface.py" line="1004"/>
         <source>No CSV file given or file doesn&apos;t exist.</source>
         <translation>No se especificó un archivo CSV o el archivo no existe.</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="1024"/>
+        <location filename="../core/app_core_interface.py" line="1036"/>
         <source>CSV layer not valid!</source>
         <translation>¡La capa CSV no es válida!</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="1048"/>
+        <location filename="../core/app_core_interface.py" line="1060"/>
         <source>There are overlapping points, we cannot import them into the DB! See selected points.</source>
         <translation>Hay puntos superpuestos, ¡no podemos importarlos a la base de datos! Revisa los puntos seleccionados en el mapa.</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="1069"/>
+        <location filename="../core/app_core_interface.py" line="1081"/>
         <source>{} points were added succesfully to &apos;{}&apos;.</source>
         <translation>Se agregaron {} puntos a &apos;{}&apos; satisfactoriamente.</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="1072"/>
+        <location filename="../core/app_core_interface.py" line="1084"/>
         <source>No point was added to &apos;{}&apos;.</source>
         <translation>No se agregó ningún punto a &apos;{}&apos;.</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="1087"/>
-        <location filename="../core/app_core_interface.py" line="1121"/>
+        <location filename="../core/app_core_interface.py" line="1099"/>
+        <location filename="../core/app_core_interface.py" line="1133"/>
         <source>You need to close the edit session on layer &apos;{}&apos; before using this tool!</source>
         <translation>¡Necesitas cerrar la sesión de edición sobre la capa &apos;{}&apos; antes de usar esta herramienta!</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="1106"/>
+        <location filename="../core/app_core_interface.py" line="1118"/>
         <source>The output of the ETL-model has no features!</source>
         <translation>¡La salida del modelo ETL-model no tiene registros!</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="1110"/>
-        <location filename="../core/app_core_interface.py" line="1160"/>
+        <location filename="../core/app_core_interface.py" line="1122"/>
+        <location filename="../core/app_core_interface.py" line="1172"/>
         <source>Model ETL-model was not found and cannot be opened!</source>
         <translation>¡No se encontró el modelo &apos;ETL-model&apos; y por ello no puede ser abierto!</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="1258"/>
+        <location filename="../core/app_core_interface.py" line="1270"/>
         <source>You can start moving nodes in layers {} and {}, simultaneously!</source>
         <translation>¡Puedes empezar a mover nodos simultáneamente en las capas {} y {}!</translation>
     </message>
@@ -293,19 +293,19 @@
         <translation>Interesado</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="429"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="451"/>
         <source>Create Party</source>
         <translation>Crear Interesado</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="433"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="455"/>
         <source>Create Group Party</source>
         <translation>Crear Agrupación de Interesados</translation>
     </message>
     <message>
         <location filename="../config/gui/gui_config.py" line="30"/>
         <location filename="../config/gui/gui_config.py" line="68"/>
-        <location filename="../gui/gui_builder/role_registry.py" line="57"/>
+        <location filename="../config/role_config.py" line="13"/>
         <source>Data management</source>
         <translation>Administración de datos</translation>
     </message>
@@ -345,8 +345,8 @@
     </message>
     <message>
         <location filename="../config/gui/gui_config.py" line="225"/>
-        <location filename="../gui/gui_builder/role_registry.py" line="67"/>
-        <location filename="../gui/gui_builder/role_registry.py" line="305"/>
+        <location filename="../config/role_config.py" line="23"/>
+        <location filename="../config/role_config.py" line="195"/>
         <source>Create Survey objects</source>
         <translation>Crear objetos de Levantamiento</translation>
     </message>
@@ -354,9 +354,10 @@
         <location filename="../config/gui/gui_config.py" line="39"/>
         <location filename="../config/gui/gui_config.py" line="199"/>
         <location filename="../config/gui/gui_config.py" line="216"/>
-        <location filename="../gui/gui_builder/role_registry.py" line="157"/>
-        <location filename="../gui/gui_builder/role_registry.py" line="233"/>
-        <location filename="../gui/gui_builder/role_registry.py" line="296"/>
+        <location filename="../config/role_config.py" line="77"/>
+        <location filename="../config/role_config.py" line="100"/>
+        <location filename="../config/role_config.py" line="143"/>
+        <location filename="../config/role_config.py" line="186"/>
         <source>Transitional System</source>
         <translation>Sistema de Transición</translation>
     </message>
@@ -365,7 +366,7 @@
         <translation type="vanished">Crear objetos de Operación</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="403"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="425"/>
         <source>Create Plot</source>
         <translation>Crear Terreno</translation>
     </message>
@@ -374,7 +375,7 @@
         <translation type="vanished">Pre-procesamiento</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="567"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="589"/>
         <source>Queries</source>
         <translation>Consultar datos</translation>
     </message>
@@ -392,34 +393,34 @@
         <translation>Topografía y Representación</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="377"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="399"/>
         <source>Run supplies ETL</source>
         <translation>Ejecutar ETL de insumos</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="395"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="417"/>
         <source>Create Point</source>
         <translation>Crear Punto</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="399"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="421"/>
         <source>Create Boundary</source>
         <translation>Crear Lindero</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="407"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="429"/>
         <source>Create Building</source>
         <translation>Crear Construcción</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="411"/>
-        <location filename="../asistente_ladm_col_plugin.py" line="522"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="433"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="544"/>
         <source>Create Building Unit</source>
         <translation>Crear Unidad de Construcción</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="424"/>
-        <location filename="../asistente_ladm_col_plugin.py" line="518"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="446"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="540"/>
         <source>Create Parcel</source>
         <translation>Crear Predio</translation>
     </message>
@@ -432,17 +433,17 @@
         <translation type="vanished">Crear Interesado Jurídico</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="445"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="467"/>
         <source>Upload Pending Source Files</source>
         <translation>Subir Archivos Fuente Pendientes</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="451"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="473"/>
         <source>Create Right</source>
         <translation>Crear Derecho</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="455"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="477"/>
         <source>Create Restriction</source>
         <translation>Crear Restricción</translation>
     </message>
@@ -455,17 +456,17 @@
         <translation type="vanished">Revisar Reglas de Calidad</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="438"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="460"/>
         <source>Create Administrative Source</source>
         <translation>Crear Fuente Administrativa</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="442"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="464"/>
         <source>Create Spatial Source</source>
         <translation>Crear Fuente Espacial</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="460"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="482"/>
         <source>Quality</source>
         <translation>Calidad</translation>
     </message>
@@ -502,12 +503,12 @@
         <translation type="vanished">Revisar todo</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="565"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="587"/>
         <source>Load layers</source>
         <translation>Cargar capas</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="587"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="609"/>
         <location filename="../utils/decorators.py" line="89"/>
         <location filename="../utils/decorators.py" line="249"/>
         <location filename="../utils/decorators.py" line="284"/>
@@ -516,12 +517,12 @@
         <translation>Configuración</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="590"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="612"/>
         <source>Help</source>
         <translation>Ayuda</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="592"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="614"/>
         <source>About</source>
         <translation>Acerca de</translation>
     </message>
@@ -560,10 +561,11 @@
     <message>
         <location filename="../config/gui/gui_config.py" line="52"/>
         <location filename="../config/gui/gui_config.py" line="212"/>
-        <location filename="../gui/gui_builder/role_registry.py" line="53"/>
-        <location filename="../gui/gui_builder/role_registry.py" line="153"/>
-        <location filename="../gui/gui_builder/role_registry.py" line="229"/>
-        <location filename="../gui/gui_builder/role_registry.py" line="292"/>
+        <location filename="../config/role_config.py" line="9"/>
+        <location filename="../config/role_config.py" line="73"/>
+        <location filename="../config/role_config.py" line="96"/>
+        <location filename="../config/role_config.py" line="139"/>
+        <location filename="../config/role_config.py" line="182"/>
         <source>LADM-COL tools</source>
         <translation>Herramientas LADM-COL</translation>
     </message>
@@ -572,63 +574,64 @@
         <translation type="vanished">Administración de datos</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="578"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="600"/>
         <source>Create LADM-COL structure</source>
         <translation>Crear estructura LADM-COL</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="581"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="603"/>
         <source>Import data</source>
         <translation>Importar datos</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="584"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="606"/>
         <source>Export data</source>
         <translation>Exportar datos</translation>
     </message>
     <message>
         <location filename="../config/gui/gui_config.py" line="176"/>
-        <location filename="../gui/gui_builder/role_registry.py" line="259"/>
+        <location filename="../config/role_config.py" line="126"/>
+        <location filename="../config/role_config.py" line="169"/>
         <source>Reports</source>
         <translation>Reportes</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="570"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="592"/>
         <source>Annex 17</source>
         <translation>Anexo 17</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="574"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="596"/>
         <source>ANT Map</source>
         <translation>Plano ANT</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="415"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="437"/>
         <source>Create Right of Way</source>
         <translation>Crear Servidumbre de Paso</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="281"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="293"/>
         <source>LADM-COL Assistant - Warning</source>
         <translation>Asistente LADM-COL - Advertencia</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="295"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="307"/>
         <source>CTM12 could not be configured. Therefore you cannot use this version of the LADM-COL Assistant.</source>
         <translation>No se pudo configurar la proyección CTM12. Por tanto, no se puede usar esta versión del Asistente LADM-COL.</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="306"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="328"/>
         <source>Refreshing GUI for the LADM-COL Assistant...</source>
         <translation>Refrescando la interfaz del Asistente LADM-COL...</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="359"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="381"/>
         <source>Login...</source>
         <translation>Autenticarse...</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="363"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="385"/>
         <source>Logout</source>
         <translation>Salir</translation>
     </message>
@@ -637,27 +640,27 @@
         <translation type="vanished">Cargar datos de Cobol</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="382"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="404"/>
         <source>Find missing Cobol supplies</source>
         <translation>Omisiones y Comisiones</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="419"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="441"/>
         <source>Associate Address</source>
         <translation>Relacionar Dirección</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="465"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="487"/>
         <source>Fix LADM-COL relations</source>
         <translation>Arreglar relaciones LADM-COL</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="551"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="573"/>
         <source>Change detection settings</source>
         <translation>Configurar identificación de novedades</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="1430"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="1451"/>
         <source>Connecting to remote db...</source>
         <translation>Conectándose a base de datos remota...</translation>
     </message>
@@ -678,22 +681,22 @@
         <translation type="vanished">Exportar datos (Insumos)</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="1248"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="1269"/>
         <source>Opening Query Changes per Parcel panel...</source>
         <translation>Abriendo panel de novedades por predio...</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="1259"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="1280"/>
         <source>Opening Query Changes for All Parcels panel...</source>
         <translation>Abriendo panel de novedades masivas...</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="1367"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="1388"/>
         <source>Continue?</source>
         <translation>¿Continuar?</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="1368"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="1389"/>
         <source>Are you sure you want to log out from the Transitional System?</source>
         <translation>¿Estás segura/o que quieres salir del Sistema de Transición?</translation>
     </message>
@@ -702,7 +705,7 @@
         <translation type="vanished">Ficha predial</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="509"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="531"/>
         <source>Create Property Record Card</source>
         <translation>Crear Ficha Predial</translation>
     </message>
@@ -727,17 +730,17 @@
         <translation type="vanished">Crear Equipamiento Comunal</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="526"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="548"/>
         <source>Create Building Unit Qualification</source>
         <translation>Crear Calificación de Unidad de Construcción</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="530"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="552"/>
         <source>Create Geoeconomic Zone</source>
         <translation>Crear Zona Homogénea Geoeconómica</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="534"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="556"/>
         <source>Create Physical Zone</source>
         <translation>Crear Zona Homogénea Física</translation>
     </message>
@@ -747,14 +750,14 @@
         <translation>Identificación de novedades</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="547"/>
-        <location filename="../asistente_ladm_col_plugin.py" line="725"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="569"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="747"/>
         <source>Query per parcel</source>
         <translation>Consulta por predio</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="549"/>
-        <location filename="../asistente_ladm_col_plugin.py" line="730"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="571"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="752"/>
         <source>Query all parcels</source>
         <translation>Consulta masiva</translation>
     </message>
@@ -763,7 +766,7 @@
         <translation type="vanished">Configuración de datos oficiales</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="714"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="736"/>
         <source>Open About Dialog</source>
         <translation>Abrir diálogo Acerca de</translation>
     </message>
@@ -971,62 +974,73 @@
         <translation type="vanished">No se pudo ejecutar una funcionalidad, la conexión a la base de datos no fue válida.</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="1188"/>
+        <location filename="../core/app_core_interface.py" line="1200"/>
         <source>&apos;{}&apos; tool has been closed because there was a problem loading the requeries layers.</source>
         <translation>La herramienta &apos;{}&apos; se ha cerrado porque hubo un problema cargando las capas requeridas.</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="1209"/>
+        <location filename="../core/app_core_interface.py" line="1221"/>
         <source>&apos;{}&apos; cannot be opened until the following layers are not in edit mode &apos;{}&apos;.</source>
         <translation>No se puede abrir &apos;{}&apos; hasta que las siguientes capas dejen de estar en edición: &apos;{}&apos;.</translation>
     </message>
     <message>
-        <location filename="../gui/gui_builder/role_registry.py" line="99"/>
+        <location filename="../config/role_config.py" line="55"/>
         <source>Structuring tools</source>
         <translation>Herramientas de estructuración</translation>
     </message>
     <message>
-        <location filename="../gui/gui_builder/role_registry.py" line="115"/>
+        <location filename="../config/role_config.py" line="244"/>
         <source>Basic</source>
         <translation>Básico</translation>
     </message>
     <message>
-        <location filename="../gui/gui_builder/role_registry.py" line="116"/>
+        <location filename="../config/role_config.py" line="245"/>
         <source>The basic role helps you to explore the LADM-COL assistant main functionalities.</source>
         <translation>El rol &lt;b&gt;Básico&lt;/b&gt; te permite explorar las principales funcionalidades del Asistente LADM-COL.</translation>
     </message>
     <message>
-        <location filename="../gui/gui_builder/role_registry.py" line="172"/>
+        <location filename="../config/role_config.py" line="284"/>
         <source>Supplies Provider</source>
         <translation>Proveedor de Insumos</translation>
     </message>
     <message>
-        <location filename="../gui/gui_builder/role_registry.py" line="173"/>
+        <location filename="../config/role_config.py" line="285"/>
         <source>The Supplies Provider role generates a XTF file with supplies data for the Manager role.</source>
         <translation>El rol &lt;b&gt;Proveedor de Insumos&lt;/b&gt; genera archivos de intercambio (XTF) de Insumos para los gestores.</translation>
     </message>
     <message>
-        <location filename="../gui/gui_builder/role_registry.py" line="187"/>
+        <location filename="../config/role_config.py" line="307"/>
         <source>Operator</source>
         <translation>Operador</translation>
     </message>
     <message>
-        <location filename="../gui/gui_builder/role_registry.py" line="188"/>
+        <location filename="../config/role_config.py" line="308"/>
         <source>The operator is in charge of capturing current cadastral data.</source>
         <translation>El rol &lt;b&gt;Operador&lt;/b&gt; está a cargo de capturar en campo datos catastrales actualizados.</translation>
     </message>
     <message>
-        <location filename="../gui/gui_builder/role_registry.py" line="247"/>
+        <location filename="../config/role_config.py" line="365"/>
+        <source>Manager Medellín</source>
+        <translation>Gestor (Medellín)</translation>
+    </message>
+    <message>
+        <location filename="../config/role_config.py" line="366"/>
+        <source>The manager Medellín is in charge of preparing supplies for operators as well as validating and managing the data provided by operators.</source>
+        <translation>El rol &lt;b&gt;Gestor (Medellín)&lt;/b&gt; está a cargo de preparar Insumos para operadores, así como de validar y administrar los datos provenientes de los operadores.</translation>
+    </message>
+    <message>
+        <location filename="../config/role_config.py" line="114"/>
+        <location filename="../config/role_config.py" line="157"/>
         <source>Change Detection</source>
         <translation>Identificación de novedades</translation>
     </message>
     <message>
-        <location filename="../gui/gui_builder/role_registry.py" line="270"/>
+        <location filename="../config/role_config.py" line="346"/>
         <source>Manager</source>
         <translation>Gestor</translation>
     </message>
     <message>
-        <location filename="../gui/gui_builder/role_registry.py" line="271"/>
+        <location filename="../config/role_config.py" line="347"/>
         <source>The manager is in charge of preparing supplies for operators as well as validating and managing the data provided by operators.</source>
         <translation>El rol &lt;b&gt;Gestor&lt;/b&gt; está a cargo de preparar Insumos para operadores, así como de validar y administrar los datos provenientes de los operadores.</translation>
     </message>
@@ -1035,12 +1049,12 @@
         <translation type="vanished">El rol &lt;b&gt;Gestor&lt;/b&gt; está a cargo de preparar Insumos para operadores, así como de validar y administrar los datos provenientes de los operadores.</translation>
     </message>
     <message>
-        <location filename="../gui/gui_builder/role_registry.py" line="347"/>
+        <location filename="../config/role_config.py" line="384"/>
         <source>Advanced</source>
         <translation>Avanzado</translation>
     </message>
     <message>
-        <location filename="../gui/gui_builder/role_registry.py" line="348"/>
+        <location filename="../config/role_config.py" line="385"/>
         <source>The advanced role has access to all the functionality.</source>
         <translation>El rol &lt;b&gt;Avanzado&lt;/b&gt; tiene acceso a todas las funcionalidades del Asistente LADM-COL.</translation>
     </message>
@@ -1419,17 +1433,17 @@
 <context>
     <name>ConfigDBsSupported</name>
     <message>
-        <location filename="../config/config_db_supported.py" line="38"/>
+        <location filename="../config/config_db_supported.py" line="41"/>
         <source>MS SQL Server could not be configured. Library &apos;pyodbc&apos; is missing!</source>
         <translation>No se pudo configurar MS SQL Server. ¡Falta la librería &apos;pyodbc&apos;!</translation>
     </message>
     <message>
-        <location filename="../config/config_db_supported.py" line="41"/>
+        <location filename="../config/config_db_supported.py" line="44"/>
         <source>MS SQL Server could not be configured. Library &apos;libqt5sql5-odbc&apos; is missing!</source>
         <translation>No se pudo configurar MS SQL Server. ¡Falta la librería &apos;libqt5sql5-odbc&apos;!</translation>
     </message>
     <message>
-        <location filename="../config/config_db_supported.py" line="45"/>
+        <location filename="../config/config_db_supported.py" line="48"/>
         <source>MS SQL Server could not be configured. There is not any odbc driver installed!</source>
         <translation>No se pudo configurar MS SQL Server. ¡No hay ningún controlador ODBC instalado!</translation>
     </message>
@@ -1935,12 +1949,12 @@
 <context>
     <name>CreateGroupPartySurvey</name>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="1154"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="1175"/>
         <source>First enable automatic values for namespace, local_id and t_ili_tid fields before creating group parties. Click the button to open the settings dialog.</source>
         <translation>Primero habilita los valores automáticos para los campos &apos;espacio de nombres&apos;, &apos;local_id&apos; y &apos;t_ili_tid&apos; antes de crear agrupaciones de interesados. Haz clic en el botón para abrir el diálogo de configuración.</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="1156"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="1177"/>
         <source>Open Settings</source>
         <translation>Abrir Configuración</translation>
     </message>
@@ -4969,15 +4983,16 @@ p, li { white-space: pre-wrap; }
         <location filename="../ui/supplies/cobol_data_source_widget.ui" line="156"/>
         <location filename="../ui/supplies/cobol_data_source_widget.ui" line="194"/>
         <location filename="../ui/supplies/snc_data_source_widget.ui" line="51"/>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="86"/>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="121"/>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="159"/>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="197"/>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="235"/>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="273"/>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="318"/>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="363"/>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="401"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="70"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="89"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="201"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="239"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="255"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="290"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="394"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="407"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="423"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="439"/>
         <source>...</source>
         <translation>...</translation>
     </message>
@@ -5146,58 +5161,67 @@ Rol:</translation>
     </message>
     <message>
         <location filename="../ui/supplies/cobol_data_source_widget.ui" line="169"/>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="376"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="122"/>
         <source>GeoDatabase</source>
         <translation>GeoDatabase</translation>
     </message>
     <message>
         <location filename="../ui/supplies/cobol_data_source_widget.ui" line="172"/>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="379"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="125"/>
         <source>GDB</source>
         <translation>GDB</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="29"/>
         <source>Predio sanción</source>
-        <translation>Predio sanción</translation>
+        <translation type="vanished">Predio sanción</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="67"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="334"/>
         <source>Predio</source>
         <translation>Predio</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="102"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="274"/>
         <source>Dirección</source>
         <translation>Dirección</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="137"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="144"/>
+        <source>Unidad construcción Comp</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="220"/>
         <source>Unidad construcción</source>
         <translation>Unidad construcción</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="175"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="353"/>
         <source>Persona</source>
         <translation>Persona</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="213"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="375"/>
+        <source>Predio bloqueo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="315"/>
         <source>Persona predio</source>
         <translation>Persona predio</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="251"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="163"/>
         <source>Ficha matriz</source>
         <translation>Ficha matriz</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="289"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="182"/>
         <source>Ficha matriz predio</source>
         <translation>Ficha matriz predio</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/snc_data_source_widget.ui" line="334"/>
+        <location filename="../ui/supplies/snc_data_source_widget.ui" line="32"/>
         <source>Ficha matriz torre</source>
         <translation>Ficha matriz torre</translation>
     </message>
@@ -5943,12 +5967,12 @@ Esta formada por el terreno y puede o no tener construcciones asociadas.</transl
 <context>
     <name>ImportFromExcelDialog</name>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="825"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="847"/>
         <source>Some errors were found while importing from the intermediate Excel file into LADM-COL!</source>
         <translation>¡Se encontraron errores importando desde la estructura intermedia de Excel a LADM-COL!</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="829"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="851"/>
         <source>Show errors found</source>
         <translation>Mostrar errores encontrados</translation>
     </message>
@@ -6749,17 +6773,17 @@ Esta formada por el terreno y puede o no tener construcciones asociadas.</transl
 <context>
     <name>LogQualityDialog</name>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="792"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="814"/>
         <source>Show Results</source>
         <translation>Mostrar Resultados</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="800"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="822"/>
         <source>Checking {} out of {}: &apos;{}&apos;</source>
         <translation>Revisando {} de {}: &apos;{}&apos;</translation>
     </message>
     <message>
-        <location filename="../asistente_ladm_col_plugin.py" line="812"/>
+        <location filename="../asistente_ladm_col_plugin.py" line="834"/>
         <source>All the {} quality rules were checked! Click the button at the right-hand side to see a report.</source>
         <translation>¡Se terminaron de revisar las {} reglas de calidad! Haz clic en el botón de la derecha para ver un reporte.</translation>
     </message>
@@ -6979,8 +7003,12 @@ Esta formada por el terreno y puede o no tener construcciones asociadas.</transl
     </message>
     <message>
         <location filename="../logic/quality/logic_quality_rules.py" line="420"/>
+        <source>No errors were found checking the &apos;{}&apos; logic consistency rule!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>No errors were found checking the &apos;{rule_name}&apos; logic consistency rule!</source>
-        <translation>¡No se encontraron errores al validar la regla de consistencia lógica &apos;{rule}&apos;!</translation>
+        <translation type="vanished">¡No se encontraron errores al validar la regla de consistencia lógica &apos;{rule}&apos;!</translation>
     </message>
 </context>
 <context>
@@ -9061,31 +9089,36 @@ Si eliges &apos;No&apos;, se llenarán las tablas &apos;{more}&apos; y &apos;{le
     </message>
     <message>
         <location filename="../gui/supplies/snc_data_sources_widget.py" line="67"/>
+        <source>Select the unidad construcción comp .csv file with SNC data </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../gui/supplies/snc_data_sources_widget.py" line="72"/>
         <source>Select the persona .csv file with SNC data </source>
         <translation>Selecciona el archivo .csv del SNC con datos de &apos;persona&apos; </translation>
     </message>
     <message>
-        <location filename="../gui/supplies/snc_data_sources_widget.py" line="72"/>
+        <location filename="../gui/supplies/snc_data_sources_widget.py" line="77"/>
         <source>Select the persona predio .csv file with SNC data </source>
         <translation>Selecciona el archivo .csv del SNC con datos de &apos;persona predio&apos; </translation>
     </message>
     <message>
-        <location filename="../gui/supplies/snc_data_sources_widget.py" line="77"/>
+        <location filename="../gui/supplies/snc_data_sources_widget.py" line="82"/>
         <source>Select the ficha matriz .csv file with SNC data </source>
         <translation>Selecciona el archivo .csv del SNC con datos de &apos;ficha matriz&apos; </translation>
     </message>
     <message>
-        <location filename="../gui/supplies/snc_data_sources_widget.py" line="82"/>
+        <location filename="../gui/supplies/snc_data_sources_widget.py" line="87"/>
         <source>Select the ficha matriz predio .csv file with SNC data </source>
         <translation>Selecciona el archivo .csv del SNC con datos de &apos;ficha matriz predio&apos; </translation>
     </message>
     <message>
-        <location filename="../gui/supplies/snc_data_sources_widget.py" line="87"/>
+        <location filename="../gui/supplies/snc_data_sources_widget.py" line="92"/>
         <source>Select the ficha matriz torre .csv file with SNC data </source>
         <translation>Selecciona el archivo .csv del SNC con datos de &apos;ficha matriz torre&apos; </translation>
     </message>
     <message>
-        <location filename="../gui/supplies/snc_data_sources_widget.py" line="92"/>
+        <location filename="../gui/supplies/snc_data_sources_widget.py" line="97"/>
         <source>Open GDB folder</source>
         <translation>Abrir carpeta GDB</translation>
     </message>
@@ -9239,41 +9272,41 @@ Si eliges &apos;No&apos;, se llenarán las tablas &apos;{more}&apos; y &apos;{le
         <translation type="vanished">¡Debes seleccionar un Sistema de Referencia con EPSG válido!</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="912"/>
+        <location filename="../core/app_core_interface.py" line="924"/>
         <source>The tested service is valid to connect with Transitional System!</source>
         <translation>¡El servicio del Sistema de Transición es válido!</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="917"/>
-        <location filename="../core/app_core_interface.py" line="921"/>
+        <location filename="../core/app_core_interface.py" line="929"/>
+        <location filename="../core/app_core_interface.py" line="933"/>
         <source>Response from the tested service is not as expected.</source>
         <translation>La respuesta del servidor no es la esperada. Servicio inválido.</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="859"/>
+        <location filename="../core/app_core_interface.py" line="871"/>
         <source>The tested service is valid to upload files!</source>
         <translation>¡El servicio probado es válido para subir archivos!</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="864"/>
+        <location filename="../core/app_core_interface.py" line="876"/>
         <source>The tested upload service is not compatible: no valid &apos;id&apos; found in response.</source>
         <translation>El servicio probado no es compatible: no se encontró un &apos;id&apos; válido en la respuesta.</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="868"/>
+        <location filename="../core/app_core_interface.py" line="880"/>
         <source>Response from the tested service is not compatible: not valid JSON found.</source>
         <translation>La respuesta desde el servicio probado no es compatible: no se encontró un JSON válido.</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="872"/>
-        <location filename="../core/app_core_interface.py" line="925"/>
+        <location filename="../core/app_core_interface.py" line="884"/>
+        <location filename="../core/app_core_interface.py" line="937"/>
         <location filename="../gui/queries/dockwidget_queries.py" line="493"/>
         <source>There was a problem connecting to the server. The server might be down or the service cannot be reached at the given URL.</source>
         <translation>Hubo un problema conectando al servidor. El servidor podría estar caído o el servicio puede no ser accesible desde la URL especificada.</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="876"/>
-        <location filename="../core/app_core_interface.py" line="929"/>
+        <location filename="../core/app_core_interface.py" line="888"/>
+        <location filename="../core/app_core_interface.py" line="941"/>
         <location filename="../gui/queries/dockwidget_queries.py" line="497"/>
         <source>There was a problem connecting to Internet.</source>
         <translation>Hubo un problema con la conexión a Internet.</translation>
@@ -9284,8 +9317,8 @@ Si eliges &apos;No&apos;, se llenarán las tablas &apos;{more}&apos; y &apos;{le
         <translation>La URL no es válida</translation>
     </message>
     <message>
-        <location filename="../core/app_core_interface.py" line="880"/>
-        <location filename="../core/app_core_interface.py" line="933"/>
+        <location filename="../core/app_core_interface.py" line="892"/>
+        <location filename="../core/app_core_interface.py" line="945"/>
         <source>Not valid service URL to test!</source>
         <translation>¡La URL del servicio no es válida!</translation>
     </message>
@@ -9302,7 +9335,7 @@ You&apos;ll continue with a limited functionality until you configure an LADM-CO
 ¡Continuarás con funcionalidades limitadas hasta que configures una base de datos LADM-COL válida!</translation>
     </message>
     <message>
-        <location filename="../gui/dialogs/dlg_settings.py" line="281"/>
+        <location filename="../gui/dialogs/dlg_settings.py" line="280"/>
         <source>No LADM-COL DB has been configured! You&apos;ll continue with limited functionality until you configure a LADM-COL DB.
 
 Do you want to go to &apos;Create LADM-COL structure&apos; dialog?</source>
@@ -9311,27 +9344,27 @@ Do you want to go to &apos;Create LADM-COL structure&apos; dialog?</source>
 ¿Quieres ir al diálogo &quot;Crear estructura LADM-COL&quot;?</translation>
     </message>
     <message>
-        <location filename="../gui/dialogs/dlg_settings.py" line="283"/>
+        <location filename="../gui/dialogs/dlg_settings.py" line="282"/>
         <source>Important</source>
         <translation>Importante</translation>
     </message>
     <message>
-        <location filename="../gui/dialogs/dlg_settings.py" line="286"/>
+        <location filename="../gui/dialogs/dlg_settings.py" line="285"/>
         <source>Yes, go to create structure</source>
         <translation>Si, ir a crear estructura</translation>
     </message>
     <message>
-        <location filename="../gui/dialogs/dlg_settings.py" line="287"/>
+        <location filename="../gui/dialogs/dlg_settings.py" line="286"/>
         <source>No, I&apos;ll do it later</source>
         <translation>No, lo haré luego</translation>
     </message>
     <message>
-        <location filename="../gui/dialogs/dlg_settings.py" line="299"/>
+        <location filename="../gui/dialogs/dlg_settings.py" line="298"/>
         <source>Warning</source>
         <translation>Advertencia</translation>
     </message>
     <message>
-        <location filename="../gui/dialogs/dlg_settings.py" line="300"/>
+        <location filename="../gui/dialogs/dlg_settings.py" line="299"/>
         <source>You have a ST connection opened and you want to change your role.
 If you confirm that you want to change your role, you&apos;ll be logged out from the ST.
 
@@ -9342,7 +9375,7 @@ Si confirmas que quieres cambiar el rol, se cerrará tu sesión del Sistema de T
 ¿Realmente quieres cambiar el rol?</translation>
     </message>
     <message>
-        <location filename="../gui/dialogs/dlg_settings.py" line="516"/>
+        <location filename="../gui/dialogs/dlg_settings.py" line="514"/>
         <source>Missing roads will be marked as errors.</source>
         <translation>Las vías faltantes serán marcadas como errores.</translation>
     </message>
@@ -9932,39 +9965,44 @@ Si eliges &apos;No&apos;, se llenarán las tablas &apos;{more}&apos; y &apos;{le
         <translation type="vanished">LADM COL</translation>
     </message>
     <message>
-        <location filename="../config/ladm_names.py" line="178"/>
+        <location filename="../config/ladm_names.py" line="184"/>
         <source>SNR data</source>
         <translation>Submodelo de Insumos de la SNR</translation>
     </message>
     <message>
-        <location filename="../config/ladm_names.py" line="171"/>
+        <location filename="../config/ladm_names.py" line="177"/>
         <source>Supplies</source>
         <translation>Submodelo de Insumos del Gestor Catastral</translation>
     </message>
     <message>
-        <location filename="../config/ladm_names.py" line="157"/>
+        <location filename="../config/ladm_names.py" line="163"/>
         <source>LADM-COL</source>
         <translation>Modelo LADM-COL</translation>
     </message>
     <message>
-        <location filename="../config/ladm_names.py" line="164"/>
+        <location filename="../config/ladm_names.py" line="170"/>
         <source>Survey</source>
         <translation>Modelo de aplicación de Levantamiento Catastral</translation>
     </message>
     <message>
-        <location filename="../config/ladm_names.py" line="185"/>
+        <location filename="../config/ladm_names.py" line="191"/>
         <source>Supplies integration data</source>
         <translation>Submodelo de Integración de Insumos</translation>
     </message>
     <message>
-        <location filename="../config/ladm_names.py" line="192"/>
+        <location filename="../config/ladm_names.py" line="198"/>
         <source>Reference cadastral cartography</source>
         <translation>Submodelo de Cartografía Catastral</translation>
     </message>
     <message>
-        <location filename="../config/ladm_names.py" line="206"/>
+        <location filename="../config/ladm_names.py" line="212"/>
         <source>ISO19107</source>
         <translation>Modelo ISO 19107</translation>
+    </message>
+    <message>
+        <location filename="../config/ladm_names.py" line="219"/>
+        <source>Supplies Medellín</source>
+        <translation>Submodelo de Insumos (Medellín)</translation>
     </message>
     <message>
         <source>Operation</source>
@@ -9983,7 +10021,7 @@ Si eliges &apos;No&apos;, se llenarán las tablas &apos;{more}&apos; y &apos;{le
         <translation type="vanished">Cartografía de referencia</translation>
     </message>
     <message>
-        <location filename="../config/ladm_names.py" line="199"/>
+        <location filename="../config/ladm_names.py" line="205"/>
         <source>Valuation</source>
         <translation>Submodelo de Avalúos</translation>
     </message>
@@ -13223,11 +13261,53 @@ Asociar la nueva fuente con los objetos seleccionados de:</translation>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; color:#545454;&quot;&gt;Este diálogo permite elegir cuál ETL se desea ejecutar, dependiendo de la proveniencia de los datos fuente. Se ofrecen dos opciones: ETL para datos del &lt;/span&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:600; color:#545454;&quot;&gt;Sistema Nacional Catastral (SNC)&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; color:#545454;&quot;&gt; o ETL para datos de &lt;/span&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:600; color:#545454;&quot;&gt;Cobol&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; color:#545454;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Noto Sans&apos;; font-size:9pt; color:#545454;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; color:#545454;&quot;&gt;El ETL permitirá convertir los datos catastrales oficiales al modelo de &lt;/span&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:600; color:#545454;&quot;&gt;Datos Gestor Catastral&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; color:#545454;&quot;&gt;, uno de los modelos extendidos del perfil colombiano LADM-COL&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:600; color:#545454;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="213"/>
+        <source>Target data base                                                                               </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="299"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; color:#545454;&quot;&gt;Este diálogo permite convertir datos procedentes de COBOL al modelo de &lt;/span&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:600; color:#545454;&quot;&gt;Datos Gestor Catastral&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; color:#545454;&quot;&gt;, uno de los modelos extendidos de perfil colombiano LADM-COL&lt;/span&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:600; color:#545454;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="344"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-style:italic; color:#9c9c9c;&quot;&gt;(Planeado para futuras versiones...)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="368"/>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; color:#545454;&quot;&gt;Aquí se presentan los resultados del ETL ejecutado, permitiendo observar a manera de reporte el número de elementos cargados a la base de datos LADM-COL.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#545454;&quot;&gt;Este diálogo permite elegir cuál ETL se desea ejecutar, dependiendo de la proveniencia de los datos fuente. Se ofrecen dos opciones: ETL para datos del &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#545454;&quot;&gt;Sistema Nacional Catastral (SNC)&lt;/span&gt;&lt;span style=&quot; color:#545454;&quot;&gt; o ETL para datos de &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#545454;&quot;&gt;Cobol&lt;/span&gt;&lt;span style=&quot; color:#545454;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
 &lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#545454;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#545454;&quot;&gt;El ETL permitirá convertir los datos catastrales oficiales al modelo de &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#545454;&quot;&gt;Datos Gestor Catastral&lt;/span&gt;&lt;span style=&quot; color:#545454;&quot;&gt;, uno de los modelos extendidos del perfil colombiano LADM-COL&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#545454;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+        <translation type="vanished">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
@@ -13236,59 +13316,55 @@ p, li { white-space: pre-wrap; }
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#545454;&quot;&gt;El ETL permitirá convertir los datos catastrales oficiales al modelo de &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#545454;&quot;&gt;Datos Gestor Catastral&lt;/span&gt;&lt;span style=&quot; color:#545454;&quot;&gt;, uno de los modelos extendidos del perfil colombiano LADM-COL&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#545454;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="225"/>
         <source>Target data base</source>
-        <translation>Base de datos destino</translation>
+        <translation type="vanished">Base de datos destino</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="237"/>
+        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="225"/>
         <source>Database:</source>
         <translation>Base de datos:</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="277"/>
+        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="265"/>
         <source>Connection settings</source>
         <translation>Configurar conexión</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="295"/>
+        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="195"/>
         <source>Configure data source</source>
         <translation>Configurar datos fuente</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="320"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#545454;&quot;&gt;Este diálogo permite convertir datos procedentes de COBOL al modelo de &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#545454;&quot;&gt;Datos Gestor Catastral&lt;/span&gt;&lt;span style=&quot; color:#545454;&quot;&gt;, uno de los modelos extendidos de perfil colombiano LADM-COL&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#545454;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+        <translation type="vanished">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#545454;&quot;&gt;Este diálogo permite convertir datos procedentes de COBOL al modelo de &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#545454;&quot;&gt;Datos Gestor Catastral&lt;/span&gt;&lt;span style=&quot; color:#545454;&quot;&gt;, uno de los modelos extendidos de perfil colombiano LADM-COL&lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#545454;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="364"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#9c9c9c;&quot;&gt;(Planeado para futuras versiones...)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+        <translation type="vanished">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#9c9c9c;&quot;&gt;(Planeado para futuras versiones...)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../ui/supplies/wiz_supplies_etl.ui" line="388"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#545454;&quot;&gt;Aquí se presentan los resultados del ETL ejecutado, permitiendo observar a manera de reporte el número de elementos cargados a la base de datos LADM-COL.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+        <translation type="vanished">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
