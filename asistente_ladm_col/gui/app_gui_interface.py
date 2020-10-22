@@ -21,6 +21,7 @@ from qgis.PyQt.QtCore import (QObject,
                               pyqtSignal,
                               QCoreApplication)
 from qgis.PyQt.QtWidgets import (QFileDialog,
+                                 QToolButton,
                                  QDockWidget)
 
 from qgis.core import (Qgis,
@@ -65,6 +66,12 @@ class AppGUIInterface(QObject):
         progressMessageBar = self.iface.messageBar().createMessage(PLUGIN_NAME, text)
         progressMessageBar.layout().addWidget(progress)
         self.iface.messageBar().pushWidget(progressMessageBar, Qgis.Info)
+
+    def disable_close_button_message_bar(self, disable):
+        """
+        :param disable: Hides close button in the message bar to prevent unwanted errors
+        """
+        self.iface.messageBar().findChildren(QToolButton)[0].setHidden(disable)
 
     def refresh_layer_symbology(self, layer_id):
         self.iface.layerTreeView().refreshLayerSymbology(layer_id)

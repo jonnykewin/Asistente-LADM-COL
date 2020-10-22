@@ -232,6 +232,7 @@ class ReportGenerator(QObject):
         self.app.gui.create_progress_message_bar(
             QCoreApplication.translate("ReportGenerator", "Generating {} report{}...").format(total, '' if total == 1 else 's'),
             progress)
+        self.app.gui.disable_close_button_message_bar(True)
 
         polygons_with_holes = []
 
@@ -285,6 +286,7 @@ class ReportGenerator(QObject):
 
         os.remove(yaml_config_path)
 
+        self.app.gui.disable_close_button_message_bar(False)
         self.enable_action_requested.emit(report_type, True)
         self.logger.clear_message_bar()
 
