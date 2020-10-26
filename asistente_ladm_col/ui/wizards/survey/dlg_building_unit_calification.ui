@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlg_building_unit_calification</class>
+ <widget class="QDialog" name="dlg_building_unit_calification">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>438</width>
+    <height>617</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Calificación de unidades de construcción</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_10">
+   <item row="0" column="0" colspan="2">
+    <layout class="QGridLayout" name="gridLayout_9">
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbl_seleccione_unidad">
+       <property name="text">
+        <string>Selecciona la(s) unidad(es) de construcción</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="lbl_tipo_calificacion">
+       <property name="text">
+        <string>Tipo de calificación</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="rbu_convencional">
+       <property name="text">
+        <string>Convencional</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="rbu_no_convencional">
+       <property name="text">
+        <string>No convencional</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="rbu_tipologia">
+       <property name="text">
+        <string>Tipologia</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QGroupBox" name="grb_convencional">
+     <property name="title">
+      <string>Convencional</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_6">
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="lbl_tipo_calificar_convencional">
+          <property name="text">
+           <string>Tipo calificación</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="cbo_tipo_calificar_convencional"/>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <widget class="QGroupBox" name="grb_estructura">
+        <property name="title">
+         <string>Estructura</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="lbl_armazon">
+           <property name="text">
+            <string>Armazón</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="cbo_armazon"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="lbl_muros">
+           <property name="text">
+            <string>Muros</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="cbo_muros"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="lbl_cubierta">
+           <property name="text">
+            <string>Cubierta</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="cbo_cubierta"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="lbl_conservacion_estructura">
+           <property name="text">
+            <string>Conservación</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QComboBox" name="cbo_conservacion_estructura"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QGroupBox" name="grb_acabados_principales">
+        <property name="title">
+         <string>Acabados principales</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QLabel" name="lbl_fachada">
+           <property name="text">
+            <string>Fachada</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="cbo_fachada"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="lbl_cubrimiento_muros">
+           <property name="text">
+            <string>Cubrimiento muros</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="cbo_cubrimiento_muros"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="lbl_piso">
+           <property name="text">
+            <string>Piso</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="cbo_piso"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="lbl_conservacion_acabados">
+           <property name="text">
+            <string>Conservación</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QComboBox" name="cbo_conservacion_acabados"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QGroupBox" name="grb_bano">
+        <property name="title">
+         <string>Baño</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="0" column="0">
+          <widget class="QLabel" name="lbl_tamano_bano">
+           <property name="text">
+            <string>Tamaño</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="cbo_tamano_bano"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="lbl_enchapes_bano">
+           <property name="text">
+            <string>Enchapes</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="cbo_enchapes_bano"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="lbl_mobiliario_bano">
+           <property name="text">
+            <string>Mobiliario</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="cbo_mobiliario_bano"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="lbl_conservacion_bano">
+           <property name="text">
+            <string>Conservación</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QComboBox" name="cbo_conservacion_bano"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QGroupBox" name="grb_cocina">
+        <property name="title">
+         <string>Cocina</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QLabel" name="lbl_tamano_cocina">
+           <property name="text">
+            <string>Tamaño</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="cbo_tamano_cocina"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="lbl_enchapes_cocina">
+           <property name="text">
+            <string>Enchapes</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="cbo_enchapes_cocina"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="lbl_mobiliario_cocina">
+           <property name="text">
+            <string>Mobiliario</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="cbo_mobiliario_cocina"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="lbl_conservacion_cocina">
+           <property name="text">
+            <string>Conservación</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QComboBox" name="cbo_conservacion_cocina"/>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QGroupBox" name="grb_bano_2">
+        <property name="title">
+         <string>Complemento industria</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_5">
+         <item row="0" column="0">
+          <widget class="QLabel" name="lbl_cerchas">
+           <property name="text">
+            <string>Cerchas</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="cbo_cerchas"/>
+         </item>
+         <item row="1" column="1">
+          <widget class="QComboBox" name="cbo_conservacion_industria"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="lbl_conservacion_industria">
+           <property name="text">
+            <string>Conservación</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="lbl_puntaje">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Puntaje Total</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QGroupBox" name="grb_no_convencional">
+     <property name="title">
+      <string>No convencional</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_7">
+      <item row="0" column="0">
+       <widget class="QLabel" name="lbl_destino">
+        <property name="text">
+         <string>Destino</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="cbo_destino"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="lbl_tipo_destino">
+        <property name="text">
+         <string>Tipo</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="cbo_tipo_destino"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QGroupBox" name="grb_tipologia">
+     <property name="title">
+      <string>Tipología</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_8">
+      <item row="0" column="0">
+       <widget class="QLabel" name="lbl_tipologia">
+        <property name="text">
+         <string>Tipología</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="cbo_tipologia"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="lbl_tipo_tipologia">
+        <property name="text">
+         <string>Tipo</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="cbo_tipo_tipologia"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>dlg_building_unit_calification</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>dlg_building_unit_calification</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
